@@ -24,6 +24,8 @@ x.x.x Release notes (yyyy-MM-dd)
 * The `ANY` / `SOME` / `NONE` qualifiers are now required in comparisons involving a key path that
   traverse a `RLMArray`/`List` property. Previously they were only required if the first key in the
   key path was an `RLMArray`/`List` property.
+* Using Realm Objective-C from Swift while having Realm Swift linked no longer causes that the
+  declared `ignoredProperties` are not taken into account.
 
 0.98.1 Release notes (2016-02-10)
 =============================================================
